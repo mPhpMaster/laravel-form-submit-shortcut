@@ -1,0 +1,41 @@
+{
+  "name": "mphpmaster/laravel-form-submit-shortcut",
+  "version": "1.0.0",
+  "description": "Laravel form submit shortcut package.",
+  "type": "library",
+  "keywords": [
+    "Laravel",
+    "submit",
+    "save",
+    "ctrl+s"
+  ],
+  "require": {
+    "php": ">=8.1",
+    "laravel/framework": ">=9",
+    "illuminate/support": ">=9",
+    "laravel/helpers": "^1.5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mPhpMaster",
+      "email": "59211285+mPhpMaster@users.noreply.github.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MPhpMaster\\LaravelFormSubmitShortcut\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MPhpMaster\\LaravelFormSubmitShortcut\\Providers\\HelperProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
