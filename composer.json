@@ -1,13 +1,13 @@
 {
   "name": "mphpmaster/laravel-form-submit-shortcut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Laravel form submit shortcut package.",
   "type": "library",
   "keywords": [
     "Laravel",
     "submit",
     "save",
-    "ctrl+s"
+    "ctrl s"
   ],
   "require": {
     "php": ">=8.1",
